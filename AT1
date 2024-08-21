@@ -1,0 +1,23 @@
+fun main() {
+
+    val nome: String = "Yasmim Dias"
+    var idade: Int = 19
+    var altura: Double = 1.72
+    var ehEstudante: Boolean = false
+
+    println("Nome: $nome")
+    println("Idade: $idade anos")
+    println("Altura: $altura metros")
+    println("É estudante? $ehEstudante")
+
+    idade = 20
+    altura = 1.73
+    ehEstudante = true
+
+
+    println("\n--- Informações Atualizadas ---")
+    println("Nome: $nome")
+    println("Idade: $idade anos")
+    println("Altura: $altura metros")
+    println("É estudante? $ehEstudante")
+}
